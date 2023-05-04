@@ -16,36 +16,111 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2435710" translatesAutoresizingMaskIntoConstraints="NO" id="eEk-2R-4rW">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0Y-s6-96x">
-                                <rect key="frame" x="136" y="233" width="103" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6k-cg-cmA">
-                                <rect key="frame" x="165" y="380" width="44" height="53"/>
+                                <rect key="frame" x="72" y="399" width="103" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="backgroundColor" red="0.64273687910455035" green="0.84666955482250894" blue="0.90427469469837307" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="+">
+                                <buttonConfiguration key="configuration" style="plain" title="+1" cornerStyle="medium">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="32"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="re0-Ru-TY2"/>
+                                    <action selector="addOne" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHb-l1-U99"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGo-lM-Mrv">
+                                <rect key="frame" x="194" y="399" width="108" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46566281511913554" green="0.88154633512201996" blue="0.78116065989147565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="+5" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addFive" destination="BYZ-38-t0r" eventType="touchUpInside" id="kx1-Rk-DFe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vR7-Ol-SW9">
+                                <rect key="frame" x="72" y="499" width="103" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42808151016388496" green="0.88804610734133371" blue="0.72520202845840875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="+10" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addTen" destination="BYZ-38-t0r" eventType="touchUpInside" id="5e5-96-I0u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISb-8c-7ax">
+                                <rect key="frame" x="194" y="499" width="108" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50676529953754323" green="0.87058823529411766" blue="0.54623581756045225" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="+50" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addFifty" destination="BYZ-38-t0r" eventType="touchUpInside" id="bda-Fq-992"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYK-tb-6Gy">
+                                <rect key="frame" x="72" y="601" width="230" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52153483994317085" green="0.8596038818359375" blue="0.35220046847949787" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="+100" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addHundred" destination="BYZ-38-t0r" eventType="touchUpInside" id="m2B-oI-9LK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4L-xb-i0g">
+                                <rect key="frame" x="69" y="320" width="237" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0Y-s6-96x">
+                                <rect key="frame" x="172" y="115" width="31" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="349円" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ioe-kQ-x1L">
+                                <rect key="frame" x="128" y="231" width="142" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQX-D6-3Bv">
+                                <rect key="frame" x="156" y="183" width="62" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="label" destination="l0Y-s6-96x" id="VzY-du-Fvx"/>
+                        <outlet property="fifty" destination="ISb-8c-7ax" id="3Ab-PS-uAp"/>
+                        <outlet property="five" destination="WGo-lM-Mrv" id="zfx-sc-oxg"/>
+                        <outlet property="hundred" destination="lYK-tb-6Gy" id="wlT-mL-Dk9"/>
+                        <outlet property="increased" destination="l0Y-s6-96x" id="SMq-Ed-bIf"/>
+                        <outlet property="msg" destination="A4L-xb-i0g" id="fO6-Ih-cgD"/>
+                        <outlet property="one" destination="l6k-cg-cmA" id="30I-Uq-Zzm"/>
+                        <outlet property="ten" destination="vR7-Ol-SW9" id="S2u-hy-ivW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -54,12 +129,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2435710" width="1125" height="1851"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
